@@ -31,9 +31,7 @@ p {
 }
 
 hr {
-  border: 0;
-  border-top: 3px dotted var(--bordercl);
-  margin: 1em 0;
+  border-top: 3px solid #4342442a;
 }
 
 blockquote {
@@ -343,7 +341,7 @@ svg {
 .highlight pre code[class*="language-bash"]::before,
 .highlight pre code[class*="language-sh"]::before {
   content: "shell";
-  background: green;
+  background: #03dac583;
   color: white;
 }
 .highlight pre code[class*="language-json"]::before {

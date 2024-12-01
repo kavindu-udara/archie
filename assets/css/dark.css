@@ -16,7 +16,7 @@ body {
 }
 
 hr {
-  border-top: 3px dotted blue;
+  border-top: 3px solid #434244;
 }
 code {
   background-color: lightblue;
@@ -132,8 +132,8 @@ a:hover {
 .highlight pre code[class*='language-bash']::before,
 .highlight pre code[class*='language-sh']::before {
   content: 'shell';
-  background: green;
-  color:white
+  background: #f9f2f4;
+  color:#7748e4
 }
 .highlight pre code[class*='language-json']::before{
   content: 'json';
